@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no"
+          name="viewport">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            text-align: left;
+            font-size: 24px;
+            color: #fff;
+            background: rgb(0, 0, 0);
+            font-family: Verdana, "微软雅黑", "宋体";
+        }
+        img{vertical-align: middle;}
+        A IMG {
+            border: 0
+        }
+
+        A:link {
+            COLOR: #000;
+            TEXT-DECORATION: none
+        }
+
+        A:visited {
+            COLOR: #333;
+            TEXT-DECORATION: none
+        }
+
+        A:hover {
+            color: #FF5200;
+            TEXT-DECORATION: none
+        }
+
+        A:active {
+            color: #FF5200;
+            TEXT-DECORATION: none
+        }
+
+        p {
+            padding: 0;
+            margin: 0
+        }
+
+        dd {
+            white-space: nowrap
+        }
+
+        LI, UL, h2, h3 {
+            margin: 0;
+            padding: 0;
+            LIST-STYLE-TYPE: none
+        }
+
+        button, input, select, textarea {
+            outline: 0
+        }
+
+        em {
+            font-family: "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", arial, Tahoma, SimSun, sans-serif !important;
+            font-style: normal
+        }
+
+        .zl {
+            margin: 0;
+            padding: 1px 2px;
+            display: inline-block;
+            border-radius: 3px;
+            line-height: 16px;
+            color: #fff;
+        }
+
+        .liang {
+            background-color: #73d538;
+        }
+        @media screen and (min-width: 750px) {
+            body {
+                width: 450px;margin: 0 auto;
+            }
+        }
+
+    </style>
+<body>
+<div style="padding:10px;border-bottom: 10px ">
+    <table>
+	   <tr>当前实时天气</tr>
+        <tr>
+            <td style="width: 50px;padding-right: 10px;"><img width="100%" src="./static/img/{{data['now']['cond_code']}}.png"/>
+            </td>
+            <td>
+                <div style="font-size: 16px; font-weight: bold;">
+                    <em>{{data['basic']['location']}}</em>&nbsp;{{data['now']['cond_txt']}}<br/>
+                    <em class="wTemp">室外温度&nbsp;{{data['now']['hum']}}℃&nbsp;&nbsp;体感温度&nbsp;-{{data['now']['fl']}}℃</em>
+                </div>
+                <div style="font-size: 14px;">
+                    {{data['now']['wind_dir']}}{{data['now']['wind_spd']}}级
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div style="padding:10px 0; font-size: 18px; font-weight: bold; border-bottom: 1px solid #f1f1f1;">&nbsp;{{data['basic']['location']}}一周天气预报</div>
+<div style="font-size: 14px;border-bottom: 10px ">
+    <table id="foreast" width="100%" border="0" cellpadding="0" cellspacing="0">
+		{% set wcount=0 %}
+        {% for item in data['daily_forecast'] %}
+         <tr>
+            <td height="35" style="padding-left: 10px;">{{item['date'][8:10]}}日</td>
+            <td align="left"><img width="25"
+                                  src="./static/img/{{item['cond_code_d']}}.png"/> {{item['cond_txt_d']}}
+            </td>
+            <td align="center">{{item['tmp_max']}}℃/{{item['tmp_min']}}℃</td>
+        </tr>
+		{% set wcount+= 1 %}
+		{% if wcount > 3 %}
+		{% break %}
+		{% end %}
+        {% end %}
+
+    </table>
+</div>
+<div style="padding:10px 0; font-size: 18px; font-weight: bold; border-bottom: 1px solid #f1f1f1;">&nbsp;生活提示</div>
+<div style="padding: 10px; font-size: 14px;">
+    {{data['lifestyle'][0]['txt']}}
+</div>
+</body>
+</html>

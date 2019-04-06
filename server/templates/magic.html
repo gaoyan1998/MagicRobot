@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{static_url('style.css')}}" media="screen" type="text/css"/>
+</head>
+<body>
+<div class="content-top">
+    <div class="top">
+        <p id="time"></p>
+    </div>
+    <div class="top">
+        <div class="right" id="weather">
+             <iframe scrolling="no" src="/weather"
+                     frameborder="0" width="300" height="500" allowtransparency="true"></iframe>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="clock" class="fill">
+    <div class="clock" id="utility-clock">
+        <div class="centre">
+            <div class="dynamic"></div>
+            <div class="expand round circle-1"></div>
+            <div class="anchor hour">
+                <div class="element thin-hand"></div>
+                <div class="element fat-hand"></div>
+            </div>
+            <div class="anchor minute">
+                <div class="element thin-hand"></div>
+                <div class="element fat-hand minute-hand"></div>
+            </div>
+            <div class="anchor second">
+                <div class="element second-hand"></div>
+            </div>
+            <div class="expand round circle-2"></div>
+            <div class="expand round circle-3"></div>
+        </div>
+    </div>
+</div>
+
+<div class="content-middle">
+    <div>
+        <center>
+            <p id="talk"></p>
+        </center>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="{{static_url('script.js')}}"></script>
+<script type="text/javascript" src="{{static_url('time.js')}}"></script>
+<script type="text/javascript" src="{{static_url('jquery.js')}}"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var timer;
+        var ws = new WebSocket("ws://localhost:5000/ws");
+        ws.onmessage = function (e) {
+            var jsobj = JSON.parse(e.data);
+            switch (jsobj.action_info) {
+                case "wake":
+                    console.log("唤醒")
+                    break
+                case "think":
+                    console.log("思考")
+                    break
+                case "stop_think":
+                    console.log("思考结束")
+                    break
+                case "msg":
+                    console.log("消息：")
+                    console.log(jsobj.msg)
+                    clearTimeout(timer);
+                    document.getElementById("clock").style.visibility = "hidden";//隐藏钟表
+                    var talk_line = document.getElementById("talk");
+                    talk_line.innerText = jsobj.msg;
+                    timer = setTimeout('reset()', 7000);
+                    break
+            }
+        }
+    });
+
+    function reset() {
+        document.getElementById("clock").style.visibility = "visible";//显示钟表
+        document.getElementById("talk").innerText = "";
+    }
+</script>
+</body>
+</html>

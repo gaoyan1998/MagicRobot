@@ -1,0 +1,44 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        console.log("zzzzzzzzzzzzzzzzzzzzzzzzz");
+    </script>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js">
+        console.log("bbbbbbbbbbbbbbbbbbbbbbb")
+        $(document).ready(function(){
+          console.log("a")
+          var ws = new WebSocket("ws://127.0.0.1:5000/chat");
+            ws.onmessage = function(e) {
+                console.log( e.data)
+            }
+            console.log("b")
+        });
+    </script>
+</head>
+<body>
+    <p>aaaaaaaaaaaaaaaaaaaa</p>
+</body>
+</html> -->
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    console.log("a")
+    var ws = new WebSocket("ws://localhost:5000/chat");
+    ws.onmessage = function(e) {
+        console.log( e.data)
+    }
+    console.log("b")
+});
+</script>
+</head>
+
+<body>
+<p>If you click on me, I will disappear.</p>
+</body>
+
+</html> 
