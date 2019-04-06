@@ -1,6 +1,7 @@
 # -*- coding: utf-8-*-
 import random
 import threading
+import pyautogui
 
 from snowboy import snowboydecoder
 from robot import config, utils, constants, logging, statistic, Player
@@ -127,6 +128,7 @@ class Wukong(object):
         t = threading.Thread(target=self.openBrawer)
         t.start()
         Player.play(constants.getData('robot_open.mp3'), onCompleted=self.say_allcomplete(), volum=0.7)
+        pyautogui.moveTo(0, 0)#移动鼠标
         try:
             self.initDetector()
         except AttributeError:
@@ -191,9 +193,9 @@ class Wukong(object):
         self.run()
 
     def openBrawer(self):
+        pass
         # 启动浏览器
-        os.system(
-            "chromium-browser  --disable-popup-blocking --no-first-run --disable-desktop-notifications  --kiosk \"http://localhost:5000/magic\"")
+        #os.system("chromium-browser  --disable-popup-blocking --no-first-run --disable-desktop-notifications  --kiosk \"http://localhost:5000/magic\"")
 
 
 if __name__ == '__main__':
