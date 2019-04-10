@@ -1,6 +1,7 @@
 # -*- coding: utf-8-*-
 import random
 import threading
+
 from snowboy import snowboydecoder
 from robot import config, utils, constants, logging, statistic, Player
 from robot.Updater import Updater
@@ -46,7 +47,7 @@ class Wukong(object):
 ''')
 
         config.init()
-        self._conversation = Conversation(self._profiling, wukong=self)
+        self._conversation = Conversation(self._profiling)
         self._conversation.say_call_back = server.onSay
         self._observer = Observer()
         event_handler = ConfigMonitor(self._conversation)
@@ -90,7 +91,6 @@ class Wukong(object):
     """
     手动唤醒
     """
-
     def wake(self):
         self.detector.active_now()
         logger.info("手动唤醒！！")
@@ -119,16 +119,17 @@ class Wukong(object):
 
     def run(self):
         self.init()
-        KeyHandler.start(self)
+
         # capture SIGINT signal, e.g., Ctrl+C
         signal.signal(signal.SIGINT, self._signal_handler)
 
         # site
-        server.run(self._conversation, self)
+        server.run(self._conversation, self, self.detector)
         # statistic.report(0)
-        # t = threading.Thread(target=self.openBrawer)
-        # t.start()
-        # Player.play(constants.getData('robot_open.mp3'), onCompleted=self.say_allcomplete(), volum=0.7)
+        t = threading.Thread(target=self.openBrawer)
+        t.start()
+        Player.play(constants.getData('robot_open.mp3'), onCompleted=self.say_allcomplete(), volum=0.7)
+        KeyHandler.start()
 
         try:
             self.initDetector()
@@ -196,12 +197,6 @@ class Wukong(object):
     def openBrawer(self):
         pass
         # 启动浏览器
-        # os.system("chromium-browser  --disable-popup-blocking --no-first-run --disable-desktop-notifications  --kiosk \"http://localhost:5000/magic\"")
+        #os.system("chromium-browser  --disable-popup-blocking --no-first-run --disable-desktop-notifications  --kiosk \"http://localhost:5000/magic\"")
 
 
-if __name__ == '__main__':
-    if len(sys.argv) == 1:
-        wukong = Wukong()
-        wukong.run()
-    else:
-        fire.Fire(Wukong)

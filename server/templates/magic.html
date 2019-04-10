@@ -7,19 +7,23 @@
 <body>
 <div class="content-top">
     <div class="top">
-        <p id="time"></p>
+        <div id="data"></div>
+        <div id="time"></div>
     </div>
-    <div class="top">
-        <div class="right" id="weather">
-             <iframe scrolling="no" src="/weather"
-                     frameborder="0" width="300" height="500" allowtransparency="true"></iframe>
-        </div>
+    <div class="bottom">
+       
 
     </div>
 
 </div>
+<div class="content-bottom">
+    <div class="right" id="weather">
+        <iframe scrolling="no" src="/weather"
+            frameborder="0" width="300" height="500" allowtransparency="true"></iframe>
+    </div>
+</div>
 
-<div id="clock" class="fill">
+<!-- <div id="clock" class="fill">
     <div class="clock" id="utility-clock">
         <div class="centre">
             <div class="dynamic"></div>
@@ -39,22 +43,46 @@
             <div class="expand round circle-3"></div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="content-middle">
     <div>
-        <center>
-            <p id="talk"></p>
-        </center>
+        <p id="talk" class="talk">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
     </div>
 </div>
 
-
-<script type="text/javascript" src="{{static_url('script.js')}}"></script>
-<script type="text/javascript" src="{{static_url('time.js')}}"></script>
 <script type="text/javascript" src="{{static_url('jquery.js')}}"></script>
+<!-- <script type="text/javascript" src="{{static_url('script.js')}}"></script> -->
+<script type="text/javascript" src="{{static_url('time.js')}}"></script>
+<script>
+    $(function () {
+    var timer;
+    var hidding = false;
+    $(document).mousemove(function () {
+        if(hidding){
+          hidding = false;
+          return;
+        }
+            if (timer) {
+                clearTimeout(timer);
+                timer = 0;
+            }
+            $('html').css({
+                cursor: ''
+            });
+        timer = setTimeout(function () {
+        hidding = true;
+            $('html').css({
+                cursor: 'none'
+            });
+        },100)
+    });
+});
+</script>
 <script type="text/javascript">
     $(document).ready(function () {
+        // document.getElementById("clock").style.visibility = "hidden";//隐藏钟表
         var timer;
         var ws = new WebSocket("ws://localhost:5000/ws");
         ws.onmessage = function (e) {
@@ -73,7 +101,7 @@
                     console.log("消息：")
                     console.log(jsobj.msg)
                     clearTimeout(timer);
-                    document.getElementById("clock").style.visibility = "hidden";//隐藏钟表
+                    // document.getElementById("clock").style.visibility = "hidden";//隐藏钟表
                     var talk_line = document.getElementById("talk");
                     talk_line.innerText = jsobj.msg;
                     timer = setTimeout('reset()', 7000);
@@ -83,7 +111,7 @@
     });
 
     function reset() {
-        document.getElementById("clock").style.visibility = "visible";//显示钟表
+        // document.getElementById("clock").style.visibility = "visible";//显示钟表
         document.getElementById("talk").innerText = "";
     }
 </script>

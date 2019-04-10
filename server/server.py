@@ -25,7 +25,7 @@ from snowboy import snowboydecoder
 
 logger = logging.getLogger(__name__)
 
-detector, conversation, wukong = None, None, None
+conversation, wukong =  None, None
 
 suggestions = [
     '现在几点',
@@ -94,7 +94,7 @@ class ChatHandler(BaseHandler):
             if self.get_argument('type') == 'text':
                 query = self.get_argument('query')
                 uuid = self.get_argument('uuid')
-                conversation.doResponse(query, uuid)
+                conversation.doResponse(query=query, UUID=uuid)
                 res = {'code': 0, 'message': 'ok'}
                 self.write(json.dumps(res))
             elif self.get_argument('type') == 'voice':
@@ -352,12 +352,12 @@ class SocketHandler(WebSocketHandler):
 '''
 
 
-class Activelisten(BaseHandler):
+class Start(BaseHandler):
     @tornado.web.asynchronous
     @gen.coroutine
     def get(self):
         global wukong
-        wukong.wake()
+        # wukong.run()
 
 '''
 当有语音输出调用此方法
@@ -394,16 +394,15 @@ application = tornado.web.Application([
     (r"/magic", MagicHandler),
     (r"/weather", WeatherHandler),
     (r"/ws", SocketHandler),
-    (r"/listen", Activelisten)
+    (r"/start", Start)
 
 ], **settings)
 
 
-def start_server(con, wk, de):
-    global conversation, wukong, detector
+def start_server(con, wk):
+    global conversation, wukong
     conversation = con
     wukong = wk
-    detector = de
     if config.get('/server/enable', False):
         port = config.get('/server/port', '5000')
         try:
@@ -414,6 +413,6 @@ def start_server(con, wk, de):
             logger.critical('服务器启动失败: {}'.format(e))
 
 
-def run(conversation, wukong, detector):
-    t = threading.Thread(target=lambda: start_server(conversation, wukong, detector))
+def run(conversation, wukong):
+    t = threading.Thread(target=lambda: start_server(conversation, wukong))
     t.start()

@@ -70,6 +70,7 @@ class Plugin(AbstractPlugin):
         return MusicPlayer(self.song_list, self)
 
     def handle(self, text, parsed):
+        self.say('好的', cache=True)
         if not self.player:
             self.player = self.init_music_player()    
         if len(self.song_list) == 0:
@@ -121,5 +122,5 @@ class Plugin(AbstractPlugin):
         return any(self.nlu.hasIntent(parsed, intent) for intent in ['CHANGE_TO_LAST', 'CHANGE_TO_NEXT', 'CHANGE_VOL', 'CLOSE_MUSIC', 'PAUSE'])
 
     def isValid(self, text, parsed):
-        return "本地音乐" in text
+        return "音乐" in text
 

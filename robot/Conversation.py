@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class Conversation(object):
     say_call_back = None
 
-    def __init__(self, profiling=False):
+    def __init__(self, profiling=False, wukong=None):
         self.reload()
         # 历史会话消息
         self.history = []
@@ -22,6 +22,7 @@ class Conversation(object):
         self.immersiveMode = None
         self.isRecording = False
         self.profiling = profiling
+        self.wukong = wukong
 
     def getHistory(self):
         return self.history
@@ -58,13 +59,13 @@ class Conversation(object):
         self.appendHistory(0, query, UUID)
 
         if query.strip() == '':
-            self.say("抱歉，刚刚没听清，能再说一遍吗？", cache=True, onCompleted=self.checkRestore)
+            self.say("抱歉，刚刚没听清，能再说一遍吗？", cache=True)
             return
 
         if not self.brain.query(query):
             # 没命中技能，使用机器人回复
             msg = self.ai.chat(query)
-            self.say(msg, True, onCompleted=self.checkRestore)
+            self.say(msg, True)
 
     def doParse(self, query, **args):
         return self.nlu.parse(query, **args)
@@ -121,8 +122,11 @@ class Conversation(object):
                         msg.endswith(u'？') or
                         u'告诉我' in msg or u'请回答' in msg
                 ):
-            query = self.activeListen()
-            self.doResponse(query)
+            self.wukong.wake()
+            # query = self.activeListen()
+            # self.doResponse(query)
+        else:
+            self.checkRestore()
 
     def say(self, msg, cache=False, plugin='', onCompleted=None):
         """ 说一句话 """
@@ -145,9 +149,11 @@ class Conversation(object):
             onCompleted = lambda: self._onCompleted(msg)
         self.player = Player.SoxPlayer()
         self.player.play(voice, not cache, onCompleted)
-        self.say_call_back("{\"action_info\": \"msg\",\"msg\": \""+msg+"\"}")
+        self.say_call_back("{\"action_info\": \"msg\",\"msg\": \"" + msg + "\"}")
+
     def activeListen(self):
         """ 主动问一个问题(适用于多轮对话) """
+        logger.info("机器人反问！！主动问一个问题(适用于多轮对话)")
         time.sleep(1)
         Player.play(constants.getData('beep_hi.wav'))
         listener = snowboydecoder.ActiveListener([constants.getHotwordModel(config.get('hotword', 'wukong.pmdl'))])

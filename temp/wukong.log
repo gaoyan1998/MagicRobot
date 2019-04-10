@@ -3699,3 +3699,766 @@
 2019-04-03 19:49:39,621 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "我也这么认为呢"}
 2019-04-03 20:42:29,705 - snowboy - INFO - Keyword 4 detected at time: 2019-04-03 20:42:29
 2019-04-03 20:42:29,708 - __main__ - INFO - fuckkkkkkkkkkkkkkkkkkkkkk
+2019-04-07 19:48:02,114 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-07 19:48:02,117 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-07 19:48:02,119 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-07 19:48:02,121 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-07 19:48:02,143 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-07 19:48:02,155 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-07 19:48:02,188 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-07 19:48:02,196 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-07 19:48:02,205 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-07 19:48:02,208 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-07 19:48:02,232 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-07 19:48:02,234 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-07 19:48:02,236 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-07 20:02:53,270 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-07 20:02:53,275 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-07 20:02:53,277 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-07 20:02:53,278 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-07 20:02:53,302 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-07 20:02:53,320 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-07 20:02:53,348 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-07 20:02:53,360 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-07 20:02:53,369 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-07 20:02:53,372 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-07 20:02:53,382 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-07 20:02:53,384 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-07 20:02:53,386 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-07 20:26:16,442 - snowboy - INFO - Keyword 4 detected at time: 2019-04-07 20:26:16
+2019-04-07 20:26:16,443 - __main__ - INFO - ？？？？？ v
+2019-04-07 20:26:25,183 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-07 20:26:25,183 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-07 20:26:25,185 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-07 20:26:25,187 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-07 20:26:25,201 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-07 20:26:25,206 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-07 20:26:25,213 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-07 20:26:25,226 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-07 20:26:25,238 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-07 20:26:25,242 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-07 20:26:25,256 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-07 20:26:25,258 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-07 20:26:25,259 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-07 20:32:47,371 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-07 20:32:47,375 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-07 20:32:47,379 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-07 20:32:47,381 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-07 20:32:47,391 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-07 20:32:47,398 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-07 20:32:47,411 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-07 20:32:47,421 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-07 20:32:47,426 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-07 20:32:47,431 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-07 20:32:47,437 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-07 20:32:47,439 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-07 20:32:47,442 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 02:23:39,304 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 02:23:39,305 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 02:23:39,306 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 02:23:39,307 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 02:23:39,326 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 02:23:39,339 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 02:23:39,390 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 02:23:39,401 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 02:23:39,406 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 02:23:39,409 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 02:23:39,449 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 02:23:39,452 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 02:23:39,453 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 02:26:53,249 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 02:26:53
+2019-04-08 02:26:53,250 - __main__ - INFO - ？？？？？ v
+2019-04-08 02:28:47,658 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 02:28:47,659 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 02:28:47,661 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 02:28:47,662 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 02:28:47,669 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 02:28:47,671 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 02:28:47,677 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 02:28:47,681 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 02:28:47,685 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 02:28:47,687 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 02:28:47,714 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 02:28:47,716 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 02:28:47,717 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 02:29:51,425 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 02:29:51,426 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 02:29:51,427 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 02:29:51,429 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 02:29:51,454 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 02:29:51,468 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 02:29:51,479 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 02:29:51,487 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 02:29:51,490 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 02:29:51,492 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 02:29:51,497 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 02:29:51,498 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 02:29:51,499 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 02:31:26,214 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 02:31:26,215 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 02:31:26,216 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 02:31:26,217 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 02:31:26,222 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 02:31:26,225 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 02:31:26,233 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 02:31:26,240 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 02:31:26,242 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 02:31:26,246 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 02:31:26,251 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 02:31:26,253 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 02:31:26,254 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 02:38:51,084 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 02:38:51,085 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 02:38:51,086 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 02:38:51,087 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 02:38:51,096 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 02:38:51,099 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 02:38:51,107 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 02:38:51,113 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 02:38:51,114 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 02:38:51,116 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 02:38:51,121 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 02:38:51,125 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 02:38:51,127 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 02:42:34,035 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 02:42:34,036 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 02:42:34,037 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 02:42:34,040 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 02:42:34,046 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 02:42:34,050 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 02:42:34,059 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 02:42:34,063 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 02:42:34,065 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 02:42:34,067 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 02:42:34,071 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 02:42:34,073 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 02:42:34,074 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 02:44:10,014 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 02:44:10,015 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 02:44:10,018 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 02:44:10,019 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 02:44:10,025 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 02:44:10,031 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 02:44:10,039 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 02:44:10,044 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 02:44:10,046 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 02:44:10,048 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 02:44:10,054 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 02:44:10,055 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 02:44:10,056 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 02:44:58,031 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 02:44:58,031 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 02:44:58,033 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 02:44:58,034 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 02:44:58,041 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 02:44:58,045 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 02:44:58,053 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 02:44:58,059 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 02:44:58,061 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 02:44:58,064 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 02:44:58,072 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 02:44:58,074 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 02:44:58,075 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 05:26:37,574 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 05:26:37
+2019-04-08 05:26:37,585 - __main__ - INFO - ？？？？？ v
+2019-04-08 05:32:55,208 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 05:32:55
+2019-04-08 05:32:55,243 - __main__ - INFO - ？？？？？ v
+2019-04-08 05:46:20,236 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 05:46:20,236 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 05:46:20,238 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 05:46:20,239 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 05:46:20,264 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 05:46:20,276 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 05:46:20,287 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 05:46:20,298 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 05:46:20,306 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 05:46:20,309 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 05:46:20,314 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 05:46:20,315 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 05:46:20,316 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 05:48:30,985 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 05:48:30,985 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 05:48:30,987 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 05:48:30,989 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 05:48:30,997 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 05:48:31,002 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 05:48:31,008 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 05:48:31,016 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 05:48:31,019 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 05:48:31,022 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 05:48:31,029 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 05:48:31,030 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 05:48:31,032 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 05:48:57,707 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 05:48:57,707 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 05:48:57,709 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 05:48:57,710 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 05:48:57,718 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 05:48:57,757 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 05:48:57,766 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 05:48:57,773 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 05:48:57,775 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 05:48:57,778 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 05:48:57,783 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 05:48:57,785 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 05:48:57,786 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 05:49:36,206 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 05:49:36,207 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 05:49:36,209 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 05:49:36,211 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 05:49:36,215 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 05:49:36,218 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 05:49:36,225 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 05:49:36,231 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 05:49:36,237 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 05:49:36,240 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 05:49:36,246 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 05:49:36,248 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 05:49:36,249 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 05:50:00,937 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 05:50:00,938 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 05:50:00,941 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 05:50:00,942 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 05:50:00,950 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 05:50:00,954 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 05:50:00,963 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 05:50:00,970 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 05:50:00,972 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 05:50:00,974 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 05:50:00,982 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 05:50:00,983 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 05:50:00,985 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 05:52:19,231 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 05:52:19,231 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 05:52:19,233 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 05:52:19,235 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 05:52:19,242 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 05:52:19,247 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 05:52:19,255 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 05:52:19,264 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 05:52:19,268 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 05:52:19,271 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 05:52:19,278 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 05:52:19,279 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 05:52:19,281 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 05:56:30,207 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 05:56:30
+2019-04-08 05:56:30,209 - __main__ - INFO - ？？？？？ v
+2019-04-08 06:10:42,089 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:10:42,090 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:10:42,092 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:10:42,094 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:10:42,102 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:10:42,106 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:10:42,114 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:10:42,123 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:10:42,127 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:10:42,129 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:10:42,134 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:10:42,135 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:10:42,136 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:13:12,195 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:13:12,196 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:13:12,198 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:13:12,200 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:13:12,209 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:13:12,211 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:13:12,218 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:13:12,225 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:13:12,228 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:13:12,230 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:13:12,235 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:13:12,236 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:13:12,238 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:13:54,959 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:13:54,960 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:13:54,962 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:13:54,963 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:13:54,973 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:13:54,976 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:13:54,985 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:13:54,989 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:13:54,990 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:13:54,992 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:13:55,001 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:13:55,003 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:13:55,005 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:14:53,054 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:14:53,055 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:14:53,057 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:14:53,059 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:14:53,067 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:14:53,072 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:14:53,079 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:14:53,088 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:14:53,090 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:14:53,093 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:14:53,097 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:14:53,098 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:14:53,100 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:16:23,903 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:16:23,905 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:16:23,906 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:16:23,907 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:16:23,912 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:16:23,916 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:16:23,924 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:16:23,931 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:16:23,933 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:16:23,936 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:16:23,942 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:16:23,944 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:16:23,945 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:19:36,623 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 06:19:36
+2019-04-08 06:19:36,625 - __main__ - INFO - ？？？？？ v
+2019-04-08 06:20:45,917 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:20:45,917 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:20:45,919 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:20:45,920 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:20:45,929 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:20:45,932 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:20:45,940 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:20:45,949 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:20:45,951 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:20:45,955 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:20:45,961 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:20:45,962 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:20:45,963 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:21:52,845 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:21:52,846 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:21:52,849 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:21:52,851 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:21:52,858 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:21:52,864 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:21:52,871 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:21:52,879 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:21:52,880 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:21:52,882 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:21:52,886 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:21:52,888 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:21:52,889 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:22:57,978 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:22:57,979 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:22:57,982 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:22:57,984 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:22:57,989 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:22:57,993 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:22:58,002 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:22:58,011 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:22:58,014 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:22:58,016 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:22:58,022 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:22:58,024 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:22:58,025 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:23:01,449 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 06:23:01
+2019-04-08 06:23:01,450 - __main__ - INFO - ？？？？？ v
+2019-04-08 06:24:18,459 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 06:24:18
+2019-04-08 06:24:18,461 - __main__ - INFO - ？？？？？ v
+2019-04-08 06:24:42,653 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:24:42,654 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:24:42,655 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:24:42,657 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:24:42,664 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:24:42,668 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:24:42,678 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:24:42,684 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:24:42,685 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:24:42,689 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:24:42,698 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:24:42,699 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:24:42,700 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:25:32,212 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:25:32,212 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:25:32,214 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:25:32,216 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:25:32,224 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:25:32,227 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:25:32,235 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:25:32,242 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:25:32,246 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:25:32,249 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:25:32,255 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:25:32,257 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:25:32,258 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:29:34,834 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:29:34,835 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:29:34,836 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:29:34,837 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:29:34,847 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:29:34,850 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:29:34,865 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:29:34,873 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:29:34,878 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:29:34,883 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:29:34,892 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:29:34,894 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:29:34,896 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:30:01,036 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:30:01,037 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:30:01,038 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:30:01,041 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:30:01,047 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:30:01,050 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:30:01,057 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:30:01,063 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:30:01,067 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:30:01,072 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:30:01,078 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:30:01,079 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:30:01,080 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:30:32,180 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 06:30:32
+2019-04-08 06:30:32,183 - __main__ - INFO - ？？？？？ v
+2019-04-08 06:36:12,878 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:36:12,879 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:36:12,882 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:36:12,886 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:36:12,894 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:36:12,899 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:36:12,909 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:36:12,915 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:36:12,917 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:36:12,919 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:36:12,924 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:36:12,926 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:36:12,927 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:36:50,966 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:36:50,967 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:36:50,968 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:36:50,970 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:36:50,979 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:36:50,982 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:36:50,991 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:36:50,999 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:36:51,002 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:36:51,004 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:36:51,010 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:36:51,011 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:36:51,012 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:38:16,330 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:38:16,331 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:38:16,333 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:38:16,336 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:38:16,343 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:38:16,346 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:38:16,356 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:38:16,360 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:38:16,362 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:38:16,365 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:38:16,374 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:38:16,376 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:38:16,377 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:39:12,795 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:39:12,796 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:39:12,797 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:39:12,798 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:39:12,809 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:39:12,812 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:39:12,825 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:39:12,830 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:39:12,832 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:39:12,836 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:39:12,847 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:39:12,849 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:39:12,854 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:40:38,007 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 06:40:38,009 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 06:40:38,011 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 06:40:38,012 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 06:40:38,017 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 06:40:38,024 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 06:40:38,034 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 06:40:38,040 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 06:40:38,044 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 06:40:38,047 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 06:40:38,052 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 06:40:38,054 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 06:40:38,056 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 06:58:03,594 - snowboy - INFO - Keyword 4 detected at time: 2019-04-08 06:58:03
+2019-04-08 06:58:03,599 - __main__ - INFO - ？？？？？ v
+2019-04-08 16:40:21,232 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:40:21,233 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:40:21,235 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:40:21,237 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:40:21,302 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:40:21,317 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:40:21,333 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:40:21,347 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:40:21,352 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:40:21,357 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:40:21,366 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:40:21,367 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:40:21,368 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:41:22,152 - robot.Updater - INFO - 主仓库检查到更新：{'version': '1.5.3', 'description': '修复没说话时重复提问的bug'}
+2019-04-08 16:41:27,720 - robot.AI - INFO - emotibot 回答：嗨！祝你一整天都有好心情！
+2019-04-08 16:41:28,529 - robot.TTS - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmps6bpb4m2.mp3
+2019-04-08 16:41:28,545 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "嗨！祝你一整天都有好心情！"}
+2019-04-08 16:42:16,349 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:42:16,349 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:42:16,351 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:42:16,356 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:42:16,362 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:42:16,370 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:42:16,378 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:42:16,385 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:42:16,392 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:42:16,395 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:42:16,407 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:42:16,409 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:42:16,410 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:43:06,690 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:43:06,691 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:43:06,692 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:43:06,696 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:43:06,704 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:43:06,708 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:43:06,717 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:43:06,724 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:43:06,730 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:43:06,736 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:43:06,746 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:43:06,748 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:43:06,749 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:45:24,184 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:45:24,186 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:45:24,188 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:45:24,190 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:45:24,198 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:45:24,206 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:45:24,217 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:45:24,224 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:45:24,227 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:45:24,231 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:45:24,243 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:45:24,245 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:45:24,247 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:46:37,623 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:46:37,624 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:46:37,627 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:46:37,628 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:46:37,642 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:46:37,645 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:46:37,657 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:46:37,663 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:46:37,665 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:46:37,676 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:46:37,684 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:46:37,687 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:46:37,690 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:48:18,711 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:48:18,712 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:48:18,714 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:48:18,716 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:48:18,723 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:48:18,726 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:48:18,736 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:48:18,741 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:48:18,744 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:48:18,746 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:48:18,754 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:48:18,758 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:48:18,759 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:51:08,906 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:51:08,906 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:51:08,907 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:51:08,909 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:51:08,920 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:51:08,925 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:51:08,935 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:51:08,942 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:51:08,944 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:51:08,948 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:51:09,018 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:51:09,020 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:51:09,021 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:51:58,009 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:51:58,009 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:51:58,013 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:51:58,014 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:51:58,026 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:51:58,031 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:51:58,039 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:51:58,047 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:51:58,052 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:51:58,056 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:51:58,069 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:51:58,071 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:51:58,076 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:52:31,356 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:52:31,357 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:52:31,358 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:52:31,360 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:52:31,368 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:52:31,371 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:52:31,376 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:52:31,384 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:52:31,387 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:52:31,390 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:52:31,398 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:52:31,400 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:52:31,402 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:52:54,656 - robot.AI - INFO - emotibot 回答：这是你的想法？我晓得了
+2019-04-08 16:52:55,067 - robot.TTS - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmp3p49lron.mp3
+2019-04-08 16:52:55,071 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "这是你的想法？我晓得了"}
+2019-04-08 16:53:05,531 - robot.AI - INFO - emotibot 回答：换个其他的话题吧，我对你的生活比较感兴趣呢~
+2019-04-08 16:53:05,867 - robot.TTS - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpuldve8be.mp3
+2019-04-08 16:53:05,878 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "换个其他的话题吧，我对你的生活比较感兴趣呢~"}
+2019-04-08 16:53:41,005 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:53:41,006 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:53:41,007 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:53:41,008 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:53:41,016 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:53:41,023 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:53:41,031 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:53:41,039 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:53:41,040 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:53:41,042 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:53:41,052 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:53:41,056 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:53:41,058 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:53:56,219 - robot.Conversation - INFO - 命中缓存，播放缓存语音
+2019-04-08 16:53:56,221 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "抱歉，刚刚没听清，能再说一遍吗？"}
+2019-04-08 16:54:35,741 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 16:54:35,742 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 16:54:35,744 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 16:54:35,747 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 16:54:35,759 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 16:54:35,765 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 16:54:35,773 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 16:54:35,779 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 16:54:35,783 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 16:54:35,785 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 16:54:35,806 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 16:54:35,809 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 16:54:35,812 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 16:54:45,054 - robot.Conversation - INFO - 命中缓存，播放缓存语音
+2019-04-08 16:54:45,057 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "抱歉，刚刚没听清，能再说一遍吗？"}
+2019-04-08 18:15:45,020 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 18:15:45,021 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 18:15:45,023 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 18:15:45,024 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 18:15:45,041 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 18:15:45,050 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 18:15:45,070 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 18:15:45,078 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 18:15:45,082 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 18:15:45,085 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 18:15:45,090 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 18:15:45,092 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 18:15:45,093 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-08 18:20:58,852 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-08 18:20:58,853 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-08 18:20:58,856 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-08 18:20:58,858 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-08 18:20:58,865 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-08 18:20:58,870 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-08 18:20:58,876 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-08 18:20:58,881 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-08 18:20:58,883 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-08 18:20:58,886 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-08 18:20:58,895 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-08 18:20:58,896 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-08 18:20:58,897 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-10 01:23:47,914 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-10 01:23:47,919 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-10 01:23:47,920 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-10 01:23:47,921 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-10 01:23:47,942 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-10 01:23:47,950 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-10 01:23:47,960 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-10 01:23:47,970 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-10 01:23:47,975 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-10 01:23:47,977 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-10 01:23:47,982 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-10 01:23:47,983 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-10 01:23:47,984 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-10 01:23:54,265 - robot.Updater - INFO - 主仓库检查到更新：{'description': '修复没说话时重复提问的bug', 'version': '1.5.3'}
+2019-04-10 01:25:07,597 - robot.AI - INFO - emotibot 回答：深圳多云，中级风，当心尘土迷到眼睛。预计全天24~30度，现在28℃。哎哟，空气不错哦，木有一丝雾霾。
+2019-04-10 01:26:07,874 - robot.TTS - CRITICAL - baidu-tts 合成失败！
+NoneType
+2019-04-10 01:26:07,876 - robot.Conversation - ERROR - 保存缓存失败：'NoneType' object has no attribute 'rfind'
+2019-04-10 01:26:07,877 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "深圳多云，中级风，当心尘土迷到眼睛。预计全天24~30度，现在28℃。哎哟，空气不错哦，木有一丝雾霾。"}
+2019-04-10 01:31:15,517 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-10 01:31:15,519 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-10 01:31:15,520 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-10 01:31:15,521 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-10 01:31:15,525 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-10 01:31:15,528 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-10 01:31:15,530 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-10 01:31:15,535 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-10 01:31:15,537 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-10 01:31:15,539 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-10 02:51:47,832 - robot.Updater - INFO - 主仓库检查到更新：{'description': '修复没说话时重复提问的bug', 'version': '1.5.3'}
+2019-04-10 02:52:06,182 - robot.AI - INFO - emotibot 回答：提醒 玩游戏 好的，请问你要什么时候提醒你呢?
+2019-04-10 02:52:07,171 - robot.TTS - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmprmbhg07_.mp3
+2019-04-10 02:52:07,175 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "提醒 玩游戏 好的，请问你要什么时候提醒你呢?"}
+2019-04-10 02:53:44,279 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-10 02:53:44,280 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-10 02:53:44,281 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-10 02:53:44,282 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-10 02:53:44,307 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-10 02:53:44,315 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-10 02:53:44,325 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-10 02:53:44,335 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-10 02:53:44,341 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-10 02:53:44,343 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-10 02:53:44,348 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-10 02:53:44,349 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-10 02:53:44,350 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-10 02:54:19,439 - robot.AI - INFO - emotibot 回答：提醒 出去 好的，请问你要什么时候提醒你呢?
+2019-04-10 02:54:19,968 - robot.TTS - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpfnxhmd5n.mp3
+2019-04-10 02:54:19,972 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "提醒 出去 好的，请问你要什么时候提醒你呢?"}
+2019-04-10 02:59:31,322 - robot.Conversation - INFO - 命中缓存，播放缓存语音
+2019-04-10 02:59:31,324 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "抱歉，刚刚没听清，能再说一遍吗？"}
+2019-04-10 02:59:52,388 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-10 02:59:52,389 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-10 02:59:52,390 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-10 02:59:52,392 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-10 02:59:52,397 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-10 02:59:52,401 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-10 02:59:52,404 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-10 02:59:52,411 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-10 02:59:52,413 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-10 02:59:52,415 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-10 03:00:03,738 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-10 03:00:03,739 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-10 03:00:03,742 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-10 03:00:03,744 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-10 03:00:03,750 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-10 03:00:03,752 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-10 03:00:03,759 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-10 03:00:03,767 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-10 03:00:03,770 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-10 03:00:03,772 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-10 03:00:03,780 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-10 03:00:03,783 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-10 03:00:03,784 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-10 03:00:07,561 - robot.Updater - INFO - 主仓库检查到更新：{'description': '修复没说话时重复提问的bug', 'version': '1.5.3'}
+2019-04-10 03:00:08,530 - robot.Conversation - INFO - 命中缓存，播放缓存语音
+2019-04-10 03:00:08,532 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "抱歉，刚刚没听清，能再说一遍吗？"}
+2019-04-10 03:00:45,793 - robot.ASR - INFO - 使用 baidu-asr ASR 引擎
+2019-04-10 03:00:45,794 - robot.AI - INFO - 使用 emotibot 对话机器人
+2019-04-10 03:00:45,796 - robot.TTS - INFO - 使用 baidu-tts TTS 引擎
+2019-04-10 03:00:45,801 - robot.NLU - INFO - 使用 unit NLU 引擎
+2019-04-10 03:00:45,806 - robot.plugin_loader - INFO - 插件 Camera 已被禁用
+2019-04-10 03:00:45,811 - robot.plugin_loader - INFO - 插件 CleanCache 加载成功 
+2019-04-10 03:00:45,819 - robot.plugin_loader - INFO - 插件 Email 加载成功 
+2019-04-10 03:00:45,823 - robot.plugin_loader - INFO - 插件 LocalPlayer 加载成功 
+2019-04-10 03:00:45,824 - robot.plugin_loader - INFO - 插件 Poem 加载成功 
+2019-04-10 03:00:45,827 - robot.Brain - INFO - 已激活插件：['cleancache', 'email', 'LocalPlayer', 'poem']
+2019-04-10 03:00:45,832 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/jvs.umdl
+2019-04-10 03:00:45,835 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/snowboy.umdl
+2019-04-10 03:00:45,837 - __main__ - INFO - /mnt/hgfs/MainScource/leafRobot/static/computer.umdl
+2019-04-10 03:00:51,414 - robot.Updater - INFO - 主仓库检查到更新：{'description': '修复没说话时重复提问的bug', 'version': '1.5.3'}
+2019-04-10 03:00:52,697 - robot.Conversation - INFO - 命中缓存，播放缓存语音
+2019-04-10 03:00:52,700 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "抱歉，刚刚没听清，能再说一遍吗？"}
+2019-04-10 03:00:56,675 - robot.Conversation - INFO - 机器人说话完毕0x11
+2019-04-10 03:00:56,677 - robot.Conversation - INFO - 机器人反问！！
+2019-04-10 03:00:56,679 - robot.Conversation - INFO - 机器人反问！！主动问一个问题(适用于多轮对话)
+2019-04-10 03:01:01,813 - robot.ASR - INFO - baidu-asr 语音识别出错了: speech quality error.
+2019-04-10 03:01:01,816 - robot.Conversation - INFO - 命中缓存，播放缓存语音
+2019-04-10 03:01:01,818 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "抱歉，刚刚没听清，能再说一遍吗？"}
+2019-04-10 03:01:05,801 - robot.Conversation - INFO - 机器人说话完毕0x11
+2019-04-10 03:01:05,803 - robot.Conversation - INFO - 机器人反问！！
+2019-04-10 03:01:05,805 - robot.Conversation - INFO - 机器人反问！！主动问一个问题(适用于多轮对话)
+2019-04-10 03:01:10,416 - robot.ASR - INFO - baidu-asr 语音识别出错了: speech quality error.
+2019-04-10 03:01:10,420 - robot.Conversation - INFO - 命中缓存，播放缓存语音
+2019-04-10 03:01:10,422 - server.server - ERROR - 发送前端消息：-->{"action_info": "msg","msg": "抱歉，刚刚没听清，能再说一遍吗？"}

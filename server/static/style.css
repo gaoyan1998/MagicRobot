@@ -18,10 +18,15 @@ body {
 .content-middle{
     float: left;
     width: 100%;
-    height: 50%;
+    /* height: 70%; */
+    text-align: center;
     margin-top: 2%;
     font-size:55px;
-    line-height:10px;
+    /* line-height:10px; */
+}
+.talk{
+    height: 100%;
+    margin-top: 250px;
 }
 .top{
     float: left;
@@ -29,7 +34,12 @@ body {
     width: 50%;
 }
 .right{
-   margin-left: 30%;
+   margin-left: 60%;
+}
+.content-bottom{
+    width: 100%;
+    height: 20%;
+    position: absolute;bottom: 0;
 }
 
 .clock {

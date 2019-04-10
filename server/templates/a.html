@@ -89,7 +89,6 @@
 <body>
 <div style="padding:10px;border-bottom: 10px ">
     <table>
-	   <tr>当前实时天气</tr>
         <tr>
             <td style="width: 50px;padding-right: 10px;"><img width="100%" src="./static/img/{{data['now']['cond_code']}}.png"/>
             </td>
@@ -106,7 +105,7 @@
     </table>
 </div>
 
-<div style="padding:10px 0; font-size: 18px; font-weight: bold; border-bottom: 1px solid #f1f1f1;">&nbsp;{{data['basic']['location']}}一周天气预报</div>
+<div style="padding:10px 0; font-size: 18px; font-weight: bold; border-bottom: 1px solid #f1f1f1;"></div>
 <div style="font-size: 14px;border-bottom: 10px ">
     <table id="foreast" width="100%" border="0" cellpadding="0" cellspacing="0">
 		{% set wcount=0 %}
@@ -119,7 +118,7 @@
             <td align="center">{{item['tmp_max']}}℃/{{item['tmp_min']}}℃</td>
         </tr>
 		{% set wcount+= 1 %}
-		{% if wcount > 3 %}
+		{% if wcount > 1 %}
 		{% break %}
 		{% end %}
         {% end %}

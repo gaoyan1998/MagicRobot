@@ -119,14 +119,63 @@ function GetLunarDay(solarYear, solarMonth, solarDay) {
         return GetcDateString();
     }
 }
+function showClock()
+{
+    var d = new Date;
+    var h = d.getHours();
+    var m = d.getMinutes();
+    var s = d.getSeconds();
+    var year = d.getFullYear();
+    var month = d.getMonth() + 1;
+    var day = d.getDate();
+    var ampm = "";
+    if (h>12)
+    {
+        h = h-12;
+        ampm = " PM";
+    }
+    else
+    {
+        ampm = " AM";
+    }
 
-var myDate = new Date();
-var yy = myDate.getFullYear();
-var mm = myDate.getMonth() + 1;
-var dd = myDate.getDate();
-var nongli = GetLunarDay(yy, mm, dd);
-var time = document.getElementById("time");
-var mWeek = weekday[myDate.getDay()];
+    var templateStr = '{HH}<span id="ch1">:</span>{MM}<span id="ch2">:</span>{SS}'+ampm;
+    templateStr = templateStr.replace("{HH}", getDD(h));
+    templateStr = templateStr.replace("{MM}", getDD(m));
+    templateStr = templateStr.replace("{SS}", getDD(s));
+            
+    var nongli = GetLunarDay(year, month, day);
+    var mWeek = weekday[d.getDay()];
+    var mData =nongli+"</br>" + mWeek + "  "+ year + "年" + month + "月" + day + "日 "+"</br>";
+    // var obj = $("#"+id);
+    var time =  $("#time");
+    var data = $("#data");
 
-var currentTime =mWeek+"  "+ yy + "年" + mm + "月" + dd + "日";
-time.innerText = currentTime+"\n农历："+ nongli;
+    time.css("fontSize", "50px");
+    time.css("fontFamily","Microsoft JhengHei, Century gothic, Arial");
+    time.css("fontWeight","bold");
+            
+    //change reading
+    data.html(mData);
+    time.html(templateStr);
+    //toggle hands
+    time.find("#ch1").fadeTo(800, 0.1);
+    time.find("#ch2").fadeTo(800, 0.1);
+    setTimeout(function(){showClock()}, 1000);
+}
+
+function getDD(num)
+{
+    return (num>=10)?num:"0"+num;
+}
+showClock();
+// var myDate = new Date();
+// var yy = myDate.getFullYear();
+// var mm = myDate.getMonth() + 1;
+// var dd = myDate.getDate();
+// var nongli = GetLunarDay(yy, mm, dd);
+// var time = document.getElementById("time");
+// var mWeek = weekday[myDate.getDay()];
+
+// var currentTime =mWeek+"  "+ yy + "年" + mm + "月" + dd + "日";
+// time.innerText = currentTime+"\n农历："+ nongli;
