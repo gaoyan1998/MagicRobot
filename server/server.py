@@ -2,8 +2,7 @@ import json
 
 from tornado.websocket import WebSocketHandler
 
-from robot import config, utils, logging, constants, Updater, Player
-from server.weather import weatherGet
+from robot import config, utils, logging, constants, Updater, weatherGet
 import base64
 import requests
 import tornado.web
@@ -20,8 +19,6 @@ import time
 import yaml
 import markdown
 import random
-
-from snowboy import snowboydecoder
 
 logger = logging.getLogger(__name__)
 

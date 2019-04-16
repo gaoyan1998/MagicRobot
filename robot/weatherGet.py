@@ -23,7 +23,24 @@ def parseJson(json_str):
             return content_str
         return ""
 
+def parseJsonMsg(json_str):
+    json_direct = json.loads(json_str)
+    # 遍历字典
+    for (k, v) in json_direct.items():
+        # 输出第一层级 v[0] 为数据内容 没有v[1]
+        content_str = v[0]
+        if content_str["status"] == "ok":
+            msg = content_str['basic']['location']
+            msg += content_str['now']['cond_txt']
+        return ""
+
 
 
 def get_weather_data():
     return parseJson(getJsonFromHttp())
+
+# def get_weather_msg():
+#     data = parseJson(getJsonFromHttp())
+#     msg = data['basic']['location']
+#     msg += data['now']['cond_txt']
+#     msg = data['now']['cond_txt'] + "室外"+ data['now']['hum'] + data['now']['wind_dir']}}{{data['now']['wind_spd']

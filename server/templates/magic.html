@@ -84,15 +84,19 @@
     $(document).ready(function () {
         // document.getElementById("clock").style.visibility = "hidden";//隐藏钟表
         var timer;
+        var talk_line = document.getElementById("talk");
+
         var ws = new WebSocket("ws://localhost:5000/ws");
         ws.onmessage = function (e) {
             var jsobj = JSON.parse(e.data);
             switch (jsobj.action_info) {
                 case "wake":
                     console.log("唤醒")
+                    talk_line.innerText = "您说...";
                     break
                 case "think":
                     console.log("思考")
+                    talk_line.innerText = "让我想想...";
                     break
                 case "stop_think":
                     console.log("思考结束")
@@ -102,9 +106,9 @@
                     console.log(jsobj.msg)
                     clearTimeout(timer);
                     // document.getElementById("clock").style.visibility = "hidden";//隐藏钟表
-                    var talk_line = document.getElementById("talk");
+                    //var talk_line = document.getElementById("talk");
                     talk_line.innerText = jsobj.msg;
-                    timer = setTimeout('reset()', 7000);
+                    timer = setTimeout('reset()',15000);
                     break
             }
         }
